@@ -9,6 +9,7 @@ namespace EmployeeTraining.Interfaces
 {
     internal interface IRegistration
     {
+        void RegisterForTraining(User user, Training training);
         void SubmitApplication();
 
         void UploadPrerequisites();

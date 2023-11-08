@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Services
 {
-    internal class NotificationService
+    public class NotificationService
     {
     }
 }

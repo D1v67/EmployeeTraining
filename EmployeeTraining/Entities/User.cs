@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeTraining.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace EmployeeTraining.Entities
         public string UserName { get; set; }
         public string Password { get; set; }
 
-        public string RoleType { get; set; }
+        public RolesEnum RoleType { get; set; }
         
 
     }

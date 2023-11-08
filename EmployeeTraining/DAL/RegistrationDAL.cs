@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.DAL
 {
-    internal class RegistrationDAL
+    public class RegistrationDAL
     {
         //add
 

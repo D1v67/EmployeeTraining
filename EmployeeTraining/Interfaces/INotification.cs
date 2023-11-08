@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeTraining.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace EmployeeTraining.Interfaces
 {
     internal interface INotification
     {
-        void Notify();
+        void Notify(User user, string message);
     }
 }

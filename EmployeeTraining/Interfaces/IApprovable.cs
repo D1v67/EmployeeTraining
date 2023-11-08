@@ -4,15 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTraining.DAL
+namespace EmployeeTraining.Interfaces
 {
-    public class UserDAL
+    internal interface IApprovable
     {
-
-        //add
-
-        //delete
-
-        //edit
+        void ApproveRequest();
+        void DeclineRequest();
     }
 }

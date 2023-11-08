@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeTraining.DAL
+namespace EmployeeTraining.Enums
 {
-    public class UserDAL
+    public enum RolesEnum
     {
+        Employee = 0,
+        Manager = 1,
+        Admin = 2,
+        
 
-        //add
 
-        //delete
-
-        //edit
     }
 }
