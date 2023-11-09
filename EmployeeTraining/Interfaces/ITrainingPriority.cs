@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    internal interface ITrainingPriority
+    public interface ITrainingPriority
     {
          int GetTrainingPriority(User user, Training training);
     }

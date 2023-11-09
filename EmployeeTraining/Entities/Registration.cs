@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Entities
 {
-    internal class Registration: IRegistration
+    public class Registration: IRegistration
     {
         private string ManagerId { get; set; }
         private string DepartmentName { get; set; }
@@ -20,6 +20,11 @@ namespace EmployeeTraining.Entities
         }
 
         public List<Registration> GetAllRegistration()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RegisterForTraining(User user, Training training)
         {
             throw new NotImplementedException();
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Services
 {
-    internal class TrainingPriorityService : ITrainingPriority
+    public class TrainingPriorityService : ITrainingPriority
     {
         public int GetTrainingPriority(User user, Training training)
         {

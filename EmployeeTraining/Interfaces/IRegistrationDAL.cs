@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    internal class IRegistrationDAL
+    public class IRegistrationDAL
     {
     }
 }

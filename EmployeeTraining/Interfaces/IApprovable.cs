@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    internal interface IApprovable
+    public interface IApprovable
     {
         void ApproveRequest();
         void DeclineRequest();

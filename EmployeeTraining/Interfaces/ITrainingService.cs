@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    internal interface ITrainingService
+    public interface ITrainingService
     {
         List<Training> GetAllTraining();
         void GetTraningByID(int id);

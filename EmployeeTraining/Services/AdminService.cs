@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Services
 {
-    internal class AdminService : IAdminServices
+    public class AdminService : IAdminServices
     {
         public void AddTraning(Training training)
         {

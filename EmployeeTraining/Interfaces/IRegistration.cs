@@ -7,7 +7,7 @@ using EmployeeTraining.Entities;
 
 namespace EmployeeTraining.Interfaces
 {
-    internal interface IRegistration
+    public interface IRegistration
     {
         void RegisterForTraining(User user, Training training);
         void SubmitApplication();

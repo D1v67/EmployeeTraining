@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    internal interface INotification
+    public interface INotification
     {
         void Notify(User user, string message);
     }

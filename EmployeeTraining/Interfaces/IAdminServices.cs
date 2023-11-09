@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    internal interface IAdminServices
+    public interface IAdminServices
     {
         void AddTraning(Training training);
         void EditTraning(Training training);

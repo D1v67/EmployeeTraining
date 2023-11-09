@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Services
 {
-    internal class RegistrationService : IRegistration
+    public class RegistrationService : IRegistration
     {
         public void DeleteRegistrationById(int id)
         {
