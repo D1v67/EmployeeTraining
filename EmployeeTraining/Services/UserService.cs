@@ -41,6 +41,16 @@ namespace EmployeeTraining.Services
             throw new NotImplementedException();
         }
 
+        public void ApproveRegistrationRequest(Registration registration)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeclineRegistrationRequest(Registration registration)
+        {
+            throw new NotImplementedException();
+        }
+
         //List<User> IUserService.GetAllUser()
         //{
         //    throw new NotImplementedException();

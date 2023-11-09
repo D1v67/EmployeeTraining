@@ -16,6 +16,12 @@ namespace EmployeeTraining.Interfaces
         void DeleteUser(int id);
         void UserLogin(User user);
 
+        void ApproveRegistrationRequest(Registration registration);
+
+        void DeclineRegistrationRequest(Registration registration);
+
+       // void ApproveRegistrationRequest(Registration registration);
+
 
 
     }

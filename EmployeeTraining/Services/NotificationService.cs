@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EmployeeTraining.Entities;
+using EmployeeTraining.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,11 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Services
 {
-    public class NotificationService
+    public class NotificationService : INotification
     {
+        public void Notify(User user, string message)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

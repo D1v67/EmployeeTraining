@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    public class IRegistrationDAL
+    public interface IRegistrationDAL
     {
+        public void GetRegistrationById();
+
+        public void DeleteRegistrationById();
+
+        public void AddRegistrationById();
+
+        public void GetAllRegistration();
     }
 }
