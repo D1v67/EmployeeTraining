@@ -1,4 +1,5 @@
-﻿using EmployeeTraining.Interfaces;
+﻿using EmployeeTraining.Entities;
+using EmployeeTraining.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,22 +10,27 @@ namespace EmployeeTraining.Services
 {
     public class ReistrationDALService : IRegistrationDAL
     {
-        public void AddRegistrationById()
+        public void Add(Registration training)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteRegistrationById()
+        public void Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void GetAllRegistration()
+        public IEnumerable<Registration> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public void GetRegistrationById()
+        public Registration GetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Registration training)
         {
             throw new NotImplementedException();
         }

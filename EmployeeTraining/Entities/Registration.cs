@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Entities
 {
-    public class Registration: IRegistration
+    public class Registration: IRegistrationService
     {
+        private string RegistrationId;
         private string ManagerId { get; set; }
         private string DepartmentName { get; set; }
 

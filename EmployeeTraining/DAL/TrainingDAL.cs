@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EmployeeTraining.Entities;
+using EmployeeTraining.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +8,31 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.DAL
 {
-    public class TrainingDAL
+    public class TrainingDAL : ITrainingDAL
     {
+        public void Add(Training training)
+        {
+            throw new NotImplementedException();
+        }
 
-        //add
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
 
-        //delete
+        public IEnumerable<Training> GetAll()
+        {
+            throw new NotImplementedException();
+        }
 
-        //edit
+        public Training GetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Training training)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -7,16 +7,12 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Interfaces
 {
-    public interface ITrainingService
+    public interface IUserDAL
     {
-        IEnumerable<Training> GetAll();
-        Training GetByID(int id);
-        void Add(Training training);
+        IEnumerable<User> GetAll();
+        User GetByID(int id);
+        void Add(User user);
         void Delete(int id);
-        void Update(Training training);
-   
-       
+        void Update(User user);
     }
 }
-
-//IEnumerables are readonly

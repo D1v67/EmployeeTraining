@@ -1,13 +1,13 @@
-﻿using EmployeeTraining.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EmployeeTraining.Entities;
 
 namespace EmployeeTraining.Interfaces
 {
-    public interface IRegistrationDAL
+    public interface IRegistrationService
     {
         IEnumerable<Registration> GetAll();
         Registration GetByID(int id);

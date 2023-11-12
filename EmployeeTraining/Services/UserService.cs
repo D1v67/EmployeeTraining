@@ -10,50 +10,36 @@ namespace EmployeeTraining.Services
 {
     public class UserService : IUserService
     {
-        public void DeleteUser(int id)
+        private readonly IUserDAL _userDAL;
+
+        public UserService(IUserDAL userDAL)
+        {
+            _userDAL = userDAL;
+        }
+
+        public void Add(User user)
         {
             throw new NotImplementedException();
         }
 
-        public void UpdateUser(User user)
+        public void Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<User> GetAllUser()
+        public IEnumerable<User> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public void GetUserById(int id)
+        public User GetByID(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void RegisterNewUser(User user)
+        public void Update(User user)
         {
             throw new NotImplementedException();
         }
-
-
-        public void UserLogin(User user)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void ApproveRegistrationRequest(Registration registration)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeclineRegistrationRequest(Registration registration)
-        {
-            throw new NotImplementedException();
-        }
-
-        //List<User> IUserService.GetAllUser()
-        //{
-        //    throw new NotImplementedException();
-        //}
     }
 }

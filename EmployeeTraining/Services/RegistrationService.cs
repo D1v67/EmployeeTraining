@@ -8,34 +8,36 @@ using System.Threading.Tasks;
 
 namespace EmployeeTraining.Services
 {
-    public class RegistrationService : IRegistration
+    public class RegistrationService : IRegistrationService
     {
-        public void DeleteRegistrationById(int id)
+
+        private readonly IRegistrationDAL _registrationDAL;
+
+        public RegistrationService(IRegistrationDAL registrationDAL)
+        {
+            _registrationDAL = registrationDAL;
+        }
+        public void Add(Registration training)
         {
             throw new NotImplementedException();
         }
 
-        public List<Registration> GetAllRegistration()
+        public void Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void RegisterForTraining(User user, Training training)
+        public IEnumerable<Registration> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        //public void RegisterForTraining()
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-        public void SubmitApplication()
+        public Registration GetByID(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void UploadPrerequisites()
+        public void Update(Registration training)
         {
             throw new NotImplementedException();
         }

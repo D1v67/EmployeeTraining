@@ -10,32 +10,34 @@ namespace EmployeeTraining.Services
 {
     public class TrainingService : ITrainingService
     {
-        public void AddTraning(Training training)
+        private readonly ITrainingDAL _trainingDAL;
+
+        public TrainingService(ITrainingDAL trainingDAL)
+        {
+            _trainingDAL = trainingDAL;
+        }
+
+        public void Add(Training training)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteTraning(int id)
+        public void Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> GetAllTraining()
+        public IEnumerable<Training> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public void GetTraningByID(int id)
+        public Training GetByID(int id)
         {
             throw new NotImplementedException();
         }
 
-        public bool IsTrainingValid(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateTraning(Training training)
+        public void Update(Training training)
         {
             throw new NotImplementedException();
         }
