@@ -15,6 +15,16 @@ namespace EmployeeTraining.DAL
             throw new NotImplementedException();
         }
 
+        public bool ApproveRequest(User user, Training traning)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool DeclineRequest(User user, Training traning)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Delete(int id)
         {
             throw new NotImplementedException();
@@ -26,6 +36,21 @@ namespace EmployeeTraining.DAL
         }
 
         public User GetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Login(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Logout(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Register(User user)
         {
             throw new NotImplementedException();
         }

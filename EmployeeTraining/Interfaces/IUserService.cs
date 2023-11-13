@@ -15,21 +15,27 @@ namespace EmployeeTraining.Interfaces
         void Add(User user);
         void Delete(int id);
         void Update(User user);
-
-        // List<User> GetAllUser();
-        // void GetUserById(int id);
-        // void RegisterNewUser(User user);
-        // void UpdateUser(User user);
-        // void DeleteUser(int id);
-        // void UserLogin(User user);
-
-        // void ApproveRegistrationRequest(Registration registration);
-
-        // void DeclineRegistrationRequest(Registration registration);
-
-        //// void ApproveRegistrationRequest(Registration registration);
-
-
-
+        bool Register(User user);
+        bool Login(User user);
+        bool Logout(User user);
+        bool ApproveRequest(User user, Training traning);
+        bool DeclineRequest(User user, Training traning);
     }
+
+    // List<User> GetAllUser();
+    // void GetUserById(int id);
+    // void RegisterNewUser(User user);
+    // void UpdateUser(User user);
+    // void DeleteUser(int id);
+    // void UserLogin(User user);
+
+    // void ApproveRegistrationRequest(Registration registration);
+
+    // void DeclineRegistrationRequest(Registration registration);
+
+    //// void ApproveRegistrationRequest(Registration registration);
+
+
+
+}
 }
